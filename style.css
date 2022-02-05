@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    /* background-image: url(./assets/alone-animal-bird-clouds-395196.jpg); */
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover; */
+ 
+    }
+
+.container{
+    width: 100%;
+}
+
+
+header{
+    background-color: rgb(213, 232, 240);
+    font-size: large;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(94, 119, 125);
+    color:white;
+    font-size: 15px;
+    margin-left:10px;
+    padding: 5px;
+}
+@media (min-width: 576px){
+    .card-deck .card {
+       
+        margin-right: 15px;
+        margin-bottom: 0;
+        margin-left:0;
+    }
+    
+    }
+ @media (max-width: 770px) {
+    .column {
+        padding-left: 15px;
+    }
+ }  
