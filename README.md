@@ -12,3 +12,8 @@ Had issues to copy right one API (first time copied from 5 Day/ 3hour Forecast i
 
  We can not use Bootstrap in our Project1 but for HW I took it from example from activities (in Project1 we use Foundation).
 
+
+links:
+ https://maryiavinogradova.github.io/Weather-dashboard/
+ https://github.com/MaryiaVinogradova/Weather-dashboard.git
+
