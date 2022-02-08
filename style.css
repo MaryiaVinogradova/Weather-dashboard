@@ -1,9 +1,6 @@
 body {
     height: 100vh;
-    /* background-image: url(./assets/alone-animal-bird-clouds-395196.jpg); */
-    /* background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover; */
+    background-image: linear-gradient(0deg, rgb(213, 232, 240) 7%, rgb(255, 255, 255) 100%);
  
     }
 
@@ -18,6 +15,46 @@ header{
     text-align: center;
 }
 
+img{
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+#cardsHolder{
+    align-content: space-between;
+}
+.column{
+    padding-left: 0; 
+ } 
+
+.cityFont{
+    font-size: 30px;
+}
+
+.card-body{
+    align-content: space-between;
+}
+
+.card{
+    border-radius: 0;
+    
+}
+
+
+.cardForecast{
+    align-content: space-around;
+}
+
+.header{
+    padding: 0.5rem;
+    background-color: rgb(213, 232, 240);
+    height: 150px;
+}
+
+
 .btn {
     background-color: rgb(94, 119, 125);
     color:white;
@@ -25,10 +62,14 @@ header{
     margin-left:10px;
     padding: 5px;
 }
+
+#article-section{
+    padding: 20px;
+}
+
 @media (min-width: 576px){
-    .card-deck .card {
+    .cardDeck .card {
        
-        margin-right: 15px;
         margin-bottom: 0;
         margin-left:0;
     }
@@ -39,3 +80,39 @@ header{
         padding-left: 15px;
     }
  }  
+
+ .green{
+    background-color:  #3ea72d;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: .25rem;
+}
+.yellow{
+    background-color: #e7de2b;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: .25rem;
+}
+.orange{
+    background-color: #f18b00;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: .25rem;
+}
+.red{
+    background-color: rgb(199, 59, 34);
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: .25rem;
+}
+.violet{
+    background-color: rgb(247, 100, 247);
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: .25rem;
+}
