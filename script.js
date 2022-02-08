@@ -8,34 +8,35 @@ $("#searchBtn").on("click", function () {
     searchCity(cityInput);
 
     renderCities();
+    
 });
 
 
 
 function renderCities() {
     $("#listOfCities").empty();
-
+    
     for (i = 0; i < cities.length; i++) {
         var list = $("<li>");
         list.addClass("list-group-item city");
         list.attr("data-city", cities[i]);
         list.text(cities[i]);
-        $("#listOfCities").append(list);
 
-        
+        $("#listOfCities").append(list);}
+
         localStorage.setItem("city-name", JSON.stringify(cities));
 
-    }
+        cities[i] === 0 (alert("What is your city?"));
+
 };
 
 $(document).on("click", ".city", function(){
     
     var cityInput = $(this).attr("data-city");
-    searchCity(cityInput);
 
-    
+    searchCity(cityInput);   
+
 });
-
 
 
 $(document).ready(function(){
