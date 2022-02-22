@@ -13,6 +13,14 @@ Had issues to copy right one API (first time copied from 5 Day/ 3hour Forecast i
  Set an alert if search input is empty.
 
  We can not use Bootstrap in our Project1 but for HW I took it from example from activities (in Project1 we use Foundation).
+ 
+ ### List
+CSS
+Bootstrap framework
+HTML
+API
+JavaScript
+
 
 
 links:
