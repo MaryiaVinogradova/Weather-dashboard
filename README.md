@@ -27,3 +27,4 @@ links:
  https://maryiavinogradova.github.io/Weather-dashboard/
  https://github.com/MaryiaVinogradova/Weather-dashboard.git
 
+Copyright (c) 2022 MaryiaVinogradova
